@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 dojo-form" >
+                <form action="process" method="post">
+                    <h1>Dojo Sruvey</h1>
+                    <p>
+                        <label for="your-name">Your Name</label>
+                        <input type="text" class="form-control" name="yName"/>
+                    </p>
+                    <p>
+                        <label for="Dojo-Location">Dojo Location</label>
+                        <select name="dojoLocation">
+                            <option value="San-Jose">San jose</option>
+                            <option value="Tulsa">Tulsa</option>
+                            <option value="Washington">Washington</option>
+                            <option value="Chicago">Chicago</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="fav-lang">Favorite Language</label>
+                        <select name="listLanguage">
+                            <option value="C#">C#</option>
+                            <option value="Python">Python</option>
+                            <option value="ReactJs">ReactJs</option>
+                            <option value="Ruby O Rail">Ruby O Rail</option>
+                        </select>
+                    </p>
+                    <p>
+                        <textarea cols="60" rows="5"> 
+                        </textarea>
+                    </p>
+                    <p>
+                        <input type="submit" class="btn btn-info" />
+                    </p>
+                </form>
+            </div>
+            
+            <div class="col-lg-6"></div>
+        </div>
+    </div>   
+</body>
+</html>

@@ -1,0 +1,8 @@
+.dojo-form{
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: rgb(0, 84, 120);
+    color: #fff;
+    padding: 20px;
+}
